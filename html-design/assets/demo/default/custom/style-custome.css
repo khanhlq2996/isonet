@@ -1,0 +1,36 @@
+.item-campaign .image-item-campaign {
+    float: left;
+    width: 75px;
+}
+.item-campaign .info-item-campaign {
+    float: left;
+    width: calc(100% - 185px);
+}
+.item-campaign .action-item-campaign {
+    float: left;
+    width: 110px;
+}
+
+@media (min-width: 993px) {
+    .m-grid.m-grid--ver-desktop.m-grid--desktop > .m-grid__item {
+        position: relative;
+    }
+    #m_ver_menu {
+        position: fixed;
+        height: calc(100vh - 70px);
+        overflow-y: scroll;
+        max-width: 255px;
+    }
+}
+
+@media (max-width: 767.8px) {
+    .item-campaign .info-item-campaign {
+        width: calc(100% - 75px);
+    }
+    .item-campaign .action-item-campaign {
+        width: 100%;
+    }
+    .item-campaign .action-item-campaign a {
+        width: calc(50% - 9px) !important;
+    }
+}
