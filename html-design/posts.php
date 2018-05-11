@@ -154,7 +154,7 @@
                         if($_GET['v'] != null) {
                             require './components/calendar/'.$_GET["v"].'.html';
                         } else {
-                            require 'components/calendar/basic.html';
+                            require './components/calendar/list-view.html';
                         }
                     ?>
 				</div>
